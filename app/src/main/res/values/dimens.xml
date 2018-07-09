@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="buttonHeight">60dp</dimen>
+    <dimen name="buttonSideMargin">16dp</dimen>
+    <dimen name="buttonTopMargin">8dp</dimen>
+    <dimen name="buttonBottomMargin">8dp</dimen>
+    <dimen name="buttonCornerRadius">0dp</dimen>
+</resources>
