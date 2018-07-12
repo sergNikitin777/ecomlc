@@ -11,12 +11,17 @@
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
-            android:id="@+id/action_startFragment_to_scanNFCFragment"
-            app:destination="@id/scanNFCFragment" />
+            android:id="@+id/actionToScanNFC"
+            app:destination="@id/scanNFCFragment"
+            app:launchSingleTop="false" />
     </fragment>
     <fragment
         android:id="@+id/scanNFCFragment"
         android:name="ru.markstudio.kafkaiot.view.fragments.ScanNFCFragment"
         android:label="fragment_scan_nfc"
-        tools:layout="@layout/fragment_scan_nfc" />
+        tools:layout="@layout/fragment_scan_nfc" >
+        <action
+            android:id="@+id/actionNoNfc"
+            app:destination="@id/startFragment" />
+    </fragment>
 </navigation>

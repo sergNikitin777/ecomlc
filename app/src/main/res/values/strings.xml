@@ -8,4 +8,6 @@
     <string name="workJournal">Work journal</string>
     <string name="status">Status</string>
 
+    <string name="scanNFCTag">Scan NFC tag</string>
+
 </resources>

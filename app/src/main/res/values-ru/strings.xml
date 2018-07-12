@@ -9,4 +9,6 @@
     <string name="workJournal">Журнал работ</string>
     <string name="status">Статус</string>
 
+    <string name="scanNFCTag">Сканировать NFC метку</string>
+
 </resources>
